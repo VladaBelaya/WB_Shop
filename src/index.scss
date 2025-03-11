@@ -1,0 +1,18 @@
+@use "styles/common/_mixins" as mixins;
+@use "styles/common/fonts" as fonts;
+@use "styles/common/variables" as variables;
+
+:root {
+  font-family: 'InterVariable', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  @include mixins.f-font-weight(variables.$font-weight-variable-550);
+  color: rgb(24, 24, 24);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}

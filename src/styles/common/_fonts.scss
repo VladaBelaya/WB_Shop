@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'RubikDoodleTriangles'; // Название шрифта
+  src: url('/src/assets/fonts/Rubik_Doodle_Triangles/RubikDoodleTriangles-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RubikBeastly';
+  src: url('/src/assets/fonts/RubikBeastly/RubikBeastly-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RubikDirt';
+  src: url('/src/assets/fonts/RubikDirt/RubikDirt-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterVariable';
+  src: url('/src/assets/fonts/InterVariable/InterVariable.woff2') format('woff2-variations');
+  font-display: swap;
+}
