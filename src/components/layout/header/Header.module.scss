@@ -1,0 +1,24 @@
+@use "/src/styles/common/variables";
+@use "/src/styles/common/mixins";
+
+.header {
+  padding: 0 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+  @media (max-width: variables.$breakpoint-md) {
+    padding: 8px 12px;
+  }
+}
+
+.logo {
+  font-size: 40px;
+  @include mixins.f-font-weight(variables.$font-weight-variable-600);
+  line-height: 28px;
+  margin-top: 5px;
+
+  @media (max-width: variables.$breakpoint-md) {
+    margin-top: 0;
+  }
+}

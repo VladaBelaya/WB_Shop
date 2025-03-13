@@ -1,0 +1,15 @@
+@use "common/mixins" as mixins;
+@use "common/fonts" as fonts;
+@use "common/variables" as variables;
+
+// Глобальные стили
+:root {
+  font-family: 'InterVariable', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  @include mixins.f-font-weight(variables.$font-weight-variable-550);
+  color: variables.$black;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
