@@ -1,16 +1,10 @@
+@use "/src/styles/common/variables";
+
 .nav {
   padding: 13px 0;
 
   &__list {
     display: flex;
-    gap: 16px;
-  }
-
-  &__item {
-
-  }
-
-  &__link {
-
+    gap: variables.$gap-16;
   }
 }
