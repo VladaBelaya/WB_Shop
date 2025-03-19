@@ -12,11 +12,22 @@
   font-size: 22px;
   @include mixins.f-font-weight(variables.$font-weight-variable-550);
   line-height: 1;
+  @media (max-width: variables.$breakpoint-sm) {
+    padding: 22px 16px 28px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
 
   &__links {
     display: flex;
     align-items: center;
     gap: 28px;
+    @media (max-width: variables.$breakpoint-sm) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 26px;
+    }
 
     li {
       max-height: 32px;

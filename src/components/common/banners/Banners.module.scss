@@ -1,0 +1,13 @@
+@use "/src/styles/common/variables";
+
+.banners {
+  max-height: 405px;
+  width: 100%;
+  aspect-ratio: 1432/405;
+  border-radius: variables.$radius-16;
+  background-color: variables.$almost-white;
+  @media (max-width: variables.$breakpoint-md) {
+    max-height: 432px;
+    aspect-ratio: 759/432;
+  }
+}

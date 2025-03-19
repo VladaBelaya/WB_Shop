@@ -1,0 +1,11 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "srcDesktop": "/src/assets/images/banners/banner-1-desktop.png",
+      "srcMobile": "/src/assets/images/banners/banner-1-mobile.png",
+      "alt": "50% скидка на гаджеты",
+      "href": "/catalog/gadgets"
+    }
+  ]
+}
