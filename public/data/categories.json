@@ -1,8 +1,6 @@
 {
-  "category": [
-    {"id": 1, "name": "Помощь психолога",
-      "src": "/src/assets/images/category/category_1.png"
-    },
+  "categories": [
+    {"id": 1, "name": "Помощь психолога", "src": "/src/assets/images/category/category_1.png"},
     {"id": 2, "name": "Гаджеты", "src": "/src/assets/images/category/category_2.png"},
     {"id": 3, "name": "Предметы искусства", "src": "/src/assets/images/category/category_3.png"},
     {"id": 4, "name": "Товары для дома", "src": "/src/assets/images/category/category_4.png"},
